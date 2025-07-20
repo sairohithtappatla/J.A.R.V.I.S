@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Audio files (if large)
+*.wav
+*.mp3
+*.m4a
+
+# API Keys (be careful!)
+config.py
+secrets.py
+
+# Model files (if large)
+vosk-model-*/
+*.bin
+*.model
